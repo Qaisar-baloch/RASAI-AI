@@ -64,7 +64,7 @@ def chat(prompt: str, system: str = "", json_mode: bool = False) -> str:
     if _groq_client:
         try:
             kwargs = dict(
-                model="llama-3.1-8b-instant",
+                model="openai/gpt-oss-20b",
                 messages=[
                     {"role": "system", "content": system or "You are a helpful assistant."},
                     {"role": "user", "content": prompt},

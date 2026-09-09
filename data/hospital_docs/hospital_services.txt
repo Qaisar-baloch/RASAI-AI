@@ -1,0 +1,32 @@
+HOSPITAL SERVICES — PATIENT FAQ (SAMPLE DATA FOR DEMO)
+
+OPD TIMINGS AND DOCUMENTS
+The General OPD is open Monday to Saturday, 9:00 AM to 1:00 PM. New patients must bring
+a valid CNIC/B-Form and, if available, previous prescriptions or lab reports. A new
+patient registration slip is issued at the front desk before consultation.
+
+DEPARTMENTS AVAILABLE
+Cardiology: Monday, Wednesday, Friday, 10:00 AM - 2:00 PM.
+Dermatology: Tuesday, Thursday, 11:00 AM - 3:00 PM.
+Pediatrics: Daily except Sunday, 9:00 AM - 4:00 PM.
+Orthopedics: Monday, Wednesday, 10:00 AM - 1:00 PM.
+
+EMERGENCY SERVICES
+The Emergency department operates 24/7 and does not require an appointment. Emergency
+cases are triaged by severity, not by arrival order.
+
+BILLING AND COMPLAINTS
+Billing disputes (overcharge, duplicate charge, insurance claim issues) should be raised
+at the Billing Help Desk with the original receipt. Disputes are typically resolved within
+7 working days. For complaints about staff conduct or service quality, patients can file
+a formal complaint with the Patient Relations Office, which responds within 3 working days.
+
+APPOINTMENT POLICY
+Appointments can be booked up to 2 weeks in advance. Patients who miss an appointment
+without cancelling at least 2 hours in advance may be marked as a no-show, which can
+affect priority for future same-day bookings.
+
+LAB AND DIAGNOSTIC REPORTS
+Routine lab reports (blood tests, urine tests) are available within 24 hours. Imaging
+reports (X-ray, ultrasound) are available within 48 hours. Reports can be collected in
+person or requested via a query ticket in this system.

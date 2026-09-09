@@ -16,6 +16,18 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 
+# Streamlit Cloud stores secrets in st.secrets (Settings -> Secrets), not always as
+# real environment variables, so fall back to that if the env vars above are empty.
+if not GROQ_API_KEY or not GEMINI_API_KEY:
+    try:
+        import streamlit as st
+        if not GROQ_API_KEY:
+            GROQ_API_KEY = st.secrets.get("GROQ_API_KEY", "")
+        if not GEMINI_API_KEY:
+            GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY", "")
+    except Exception:
+        pass  # not running under Streamlit, or no secrets.toml configured — that's fine
+
 _groq_client = None
 _gemini_model = None
 

@@ -90,7 +90,7 @@ with tab_tickets:
     vkey = None if filter_choice == "All" else VERTICAL_TICKET_KEY.get(filter_choice)
     rows = list_tickets(vkey)
     df = pd.DataFrame(rows, columns=["ID", "Vertical", "Category", "Department", "Summary", "Priority", "Status", "Created"])
-    st.dataframe(df, width="stretch", hide_index=True)
+    st.dataframe(df, use_container_width=True, hide_index=True)
 
     col1, col2 = st.columns([2, 1])
     with col1:
@@ -123,4 +123,4 @@ with tab_appts:
 
     appt_rows = list_appointments()
     appt_df = pd.DataFrame(appt_rows, columns=["ID", "Patient", "Department", "Slot", "Status", "Booked At"])
-    st.dataframe(appt_df, width="stretch", hide_index=True)
+    st.dataframe(appt_df, use_container_width=True, hide_index=True)

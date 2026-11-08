@@ -6,6 +6,8 @@ verticals (University/HEC and Hospital) just by swapping the knowledge base.
 Built for **Streamlit Cloud** deployment (`streamlit_app.py` is the main app).
 A Gradio version also ships in `gradio_app.py` in case you want it later.
 
+RASAI AI is live at:https://rasai-ai-ikwwym8y9hdyrbkbywuewk.streamlit.app/
+
 ## What's already built (all phases delivered)
 
 | Phase | What it does | File(s) |
